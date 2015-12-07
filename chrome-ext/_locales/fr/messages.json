@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Sélectionner WattPad",
+    "description": "Sélectionner WattPad"
+  },
+  "appDesc": {
+    "message": "Permets d'activer la sélection (et le copier-coller) dans l'interface de lecture de WattPad",
+    "description":"Permets d'activer la sélection (et le copier-coller) dans l'interface de lecture de WattPad"
+  }
+}
