@@ -1,0 +1,11 @@
+{
+  "name": "Sélectionner WattPad",
+  "version": "1.1",
+  "icons": { "128": "medias/icons/icon_128.png", "64":"medias/icons/icon_64.png", "32":"medias/icons/icon_32.png", "16":"medias/icons/icon_16.png" },
+  "description": "Permets d'activer la sélection (et le copier-coller) dans l'interface de lecture de WattPad",
+  "content_scripts": [{
+    "matches": ["https://www.wattpad.com/*"],
+    "js": [ "jquery.min.js", "content.js"  ]
+  }],
+  "manifest_version": 2
+}
